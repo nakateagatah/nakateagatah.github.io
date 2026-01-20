@@ -1,0 +1,123 @@
+h1{
+    color: green;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    color: blue;
+    font-size: 20px;
+    text-align:left;
+}
+th{
+    color:darkmagenta;
+    font-size:large ;
+}
+table{
+font-family:Georgia, 'Times New Roman', Times, serif;
+width: 100%;
+}
+body{
+    margin: auto;
+    padding: 0;
+}
+blockquote{
+    color: black;
+    background-color: white;
+    margin: auto;
+    padding:0px;
+}
+header{
+    background-color:chocolate;
+    text-align: center;
+    padding: 0%;
+    margin: auto;
+}
+#maincontainer{
+    width: 720px;
+    background-color: chocolate;
+    margin: auto;
+    padding: 0;
+}
+footer{
+    color: green;
+    text-align: center;
+}
+nav a:hover{
+    background-color:blue;
+    color: aqua;
+}
+nav a{
+    float: left;
+    display: block;
+    color: aqua;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 17px;
+}
+nav{
+    overflow: hidden;
+    background-color: black;
+}
+.hero{
+   min-height: 250vh;
+   background: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+   ),
+   url(url.JPG);
+   background-size: cover;
+   background-position: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   padding: 20px 20px;
+}
+.hero-content{
+    max-width: 800px;
+    color: #fff;
+}
+.hero-h2{
+    font-size: 1.5px;
+    font-weight: 100px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+nav{
+    overflow: hidden;
+    background-color: black;
+}
+
+nav a{
+    float: left;
+    display: block;
+    color: aqua;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 17px;
+}
+
+nav a:hover{
+    background-color:blue;
+    color: aqua;
+}
+
+.about-content{
+    max-width: 800px;
+    color: #fff;
+}
+.about{
+    min-height: 200vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+    ),
+    url(hello.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+}
