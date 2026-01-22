@@ -22,20 +22,34 @@ phone: 0751109969
     </nav>
   </header> 
 
-  <div> <!-- map area -->
-<h4>Interested in hiring me for commissions? Something else? Contact me!</h4>
+  <section class="contact">
+   <div class="contact-text">
+<h2>Interested in hiring me?</h2>
+<p>For commissions or anything else, feel free to contact me.</p>
 </div>
-<form>
-    <label>My email</label>
-    <input type="email"><br>
-    <label>Subject</label>
-    <input type="text"><br>
+
+<form class="contact-form">
     <label>Name</label>
-    <input type="text"><br><br>
+    <input type="text" required><br>
+
+    <label>My email</label>
+    <input type="email" required><br>
+
+    <label>Subject</label>
+    <input type="text" required><br><br>
+
     <label>Message</label><br>
-    <textarea rows="10" cols="100px"></textarea><br><br><br>
-    <input type="submit">
+    <textarea rows="10" cols="100px" required></textarea><br><br><br>
+
+    <button type="submit">Submit</button>
 </form>
+
+    <p id="successMessage" style="display:none; color:#ffd700; text-align:center; margin-top:20px;">
+  ✅ Your message has been sent successfully!
+</p>
+
+  </section>
+  
 <footer>
     &copy; 2026-All rights reserved. designed by Shillah
 </footer>
